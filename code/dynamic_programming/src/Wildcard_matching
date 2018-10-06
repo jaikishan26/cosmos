@@ -71,7 +71,7 @@ bool wildmatching(string s, string pattern)
 }
  int main()
  {
- 	string s1 = "xaylmz";
+ 	string s1 = "xayzylmz";
  	string s2 = "x?y*z";
  	cout<<wildmatching(s1,s2);
  	return 0;
