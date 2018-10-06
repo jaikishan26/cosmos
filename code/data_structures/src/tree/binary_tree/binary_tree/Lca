@@ -82,8 +82,8 @@ node* lcaBT(node* root, int a , int b)
 int main()
 {
 	node* root=NULL;
-	root= insert(root,50);
-	root=insert(root,90);
+	root= insert(root,20);
+	root=insert(root,80);
 	root=insert(root,45);
 	root=insert(root,30);
 	root=insert(root,110);
@@ -91,7 +91,7 @@ int main()
 	root=insert(root,85);
 
 	
-	node* a=lcaBST(root,50,90);
+	node* a=lcaBST(root,20,80);
 	cout<<a->data<<endl;
 	a=lcaBST(root,30,46);
 	cout<<a->data<<endl;
